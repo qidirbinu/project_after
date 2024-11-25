@@ -12,7 +12,7 @@ vectorizer_filename = 'tfidfvector.pkl'  # Misalnya, jika Anda juga menyimpan ve
 vectorizer = pickle.load(open(vectorizer_filename, 'rb'))
 
 # Menambahkan antarmuka pengguna di Streamlit
-st.title("Deteksi Bullying dalam Komentar")
+st.title("Deteksi Bullying")
 
 # Kolom untuk memasukkan komentar
 comment = st.text_area("Masukkan komentar di sini:")
