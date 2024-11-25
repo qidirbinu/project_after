@@ -8,7 +8,7 @@ best_model_filename = 'LinearSVC.pkl'
 best_model = pickle.load(open(best_model_filename, 'rb'))
 
 # Memuat TfidfVectorizer yang digunakan saat pelatihan model
-vectorizer_filename = 'tfidf_vectorizer.pkl'  # Misalnya, jika Anda juga menyimpan vectorizer
+vectorizer_filename = 'tfidf_vector.pkl'  # Misalnya, jika Anda juga menyimpan vectorizer
 vectorizer = pickle.load(open(vectorizer_filename, 'rb'))
 
 # Menambahkan antarmuka pengguna di Streamlit
