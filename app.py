@@ -29,7 +29,7 @@ if st.button("Prediksi"):
         prediction = best_model.predict(comment_vectorized)
 
         # Menampilkan hasil prediksi
-        if prediction >= 0.5:
+        if prediction == 1:
             st.write("Komentar ini **mengandung bullying**.")
         else:
             st.write("Komentar ini **tidak mengandung bullying**.")
